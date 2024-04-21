@@ -1,0 +1,54 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="calculatorTesting" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="calculatorTesting" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="UnitTest1" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="calculatorTesting.UnitTest1.AdditionTest" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="AdditionTest" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="calculatorTesting.UnitTest1.DivisionByZeroTest" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="DivisionByZeroTest" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="calculatorTesting.UnitTest1.DivisionTest" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="DivisionTest" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="calculatorTesting.UnitTest1.MultiplicationTest" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="MultiplicationTest" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="calculatorTesting.UnitTest1.SubtractionTest" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="SubtractionTest" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>

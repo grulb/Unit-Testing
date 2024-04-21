@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "pO+7lXbEFYku0aEhjJ0+VRfzYirStSpxQB1ejx1nyu+r8nbRb+GJKg8S2LpZCwz2FOaP5trlwo0dgDgfLYS7bA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ilya2\\OneDrive\\Рабочий стол\\ДЗ\\Миркитанов\\Тестировка\\Проги для тестировки\\5 задание\\uniitTesting\\Unit-Testing\\uniitTesting\\uniitTesting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ilya2\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\ilya2\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\ilya2\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\ilya2\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
+  ],
+  "logs": []
+}
