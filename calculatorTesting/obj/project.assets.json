@@ -362,6 +362,28 @@
           }
         }
       },
+      "NUnit/4.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/nunit.framework.dll": {
+            "related": ".legacy.xml;.xml"
+          },
+          "lib/net6.0/nunit.framework.legacy.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/nunit.framework.dll": {
+            "related": ".legacy.xml;.xml"
+          },
+          "lib/net6.0/nunit.framework.legacy.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
       "runtime.native.System/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1326,6 +1348,32 @@
         "lib/netstandard2.0/NuGet.Frameworks.xml",
         "nuget.frameworks.5.11.0.nupkg.sha512",
         "nuget.frameworks.nuspec"
+      ]
+    },
+    "NUnit/4.1.0": {
+      "sha512": "MT/DpAhjtiytzhTgTqIhBuWx4y26PKfDepYUHUM+5uv4TsryHC2jwFo5e6NhWkApCm/G6kZ80dRjdJFuAxq3rg==",
+      "type": "package",
+      "path": "nunit/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGES.md",
+        "LICENSE.txt",
+        "NOTICES.md",
+        "README.md",
+        "THIRD_PARTY_NOTICES.md",
+        "build/NUnit.props",
+        "icon.png",
+        "lib/net462/nunit.framework.dll",
+        "lib/net462/nunit.framework.legacy.dll",
+        "lib/net462/nunit.framework.legacy.xml",
+        "lib/net462/nunit.framework.xml",
+        "lib/net6.0/nunit.framework.dll",
+        "lib/net6.0/nunit.framework.legacy.dll",
+        "lib/net6.0/nunit.framework.legacy.xml",
+        "lib/net6.0/nunit.framework.xml",
+        "nunit.4.1.0.nupkg.sha512",
+        "nunit.nuspec"
       ]
     },
     "runtime.native.System/4.3.0": {
@@ -2314,6 +2362,7 @@
       "MSTest.TestAdapter >= 2.2.10",
       "MSTest.TestFramework >= 2.2.10",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
+      "NUnit >= 4.1.0",
       "coverlet.collector >= 3.2.0",
       "uniitTesting >= 1.0.0"
     ]
@@ -2324,11 +2373,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ilya2\\OneDrive\\Рабочий стол\\ДЗ\\Миркитанов\\Тестировка\\Проги для тестировки\\5 задание\\uniitTesting\\Unit-Testing\\calculatorTesting\\calculatorTesting.csproj",
+      "projectUniqueName": "C:\\Users\\ilya2\\OneDrive\\Рабочий стол\\ДЗ\\Миркитанов\\Тестировка\\Проги для тестировки\\5 задание(Степанов)\\uniitTesting\\Unit-Testing\\calculatorTesting\\calculatorTesting.csproj",
       "projectName": "calculatorTesting",
-      "projectPath": "C:\\Users\\ilya2\\OneDrive\\Рабочий стол\\ДЗ\\Миркитанов\\Тестировка\\Проги для тестировки\\5 задание\\uniitTesting\\Unit-Testing\\calculatorTesting\\calculatorTesting.csproj",
+      "projectPath": "C:\\Users\\ilya2\\OneDrive\\Рабочий стол\\ДЗ\\Миркитанов\\Тестировка\\Проги для тестировки\\5 задание(Степанов)\\uniitTesting\\Unit-Testing\\calculatorTesting\\calculatorTesting.csproj",
       "packagesPath": "C:\\Users\\ilya2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ilya2\\OneDrive\\Рабочий стол\\ДЗ\\Миркитанов\\Тестировка\\Проги для тестировки\\5 задание\\uniitTesting\\Unit-Testing\\calculatorTesting\\obj\\",
+      "outputPath": "C:\\Users\\ilya2\\OneDrive\\Рабочий стол\\ДЗ\\Миркитанов\\Тестировка\\Проги для тестировки\\5 задание(Степанов)\\uniitTesting\\Unit-Testing\\calculatorTesting\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ilya2\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2345,8 +2394,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ilya2\\OneDrive\\Рабочий стол\\ДЗ\\Миркитанов\\Тестировка\\Проги для тестировки\\5 задание\\uniitTesting\\Unit-Testing\\uniitTesting\\uniitTesting.csproj": {
-              "projectPath": "C:\\Users\\ilya2\\OneDrive\\Рабочий стол\\ДЗ\\Миркитанов\\Тестировка\\Проги для тестировки\\5 задание\\uniitTesting\\Unit-Testing\\uniitTesting\\uniitTesting.csproj"
+            "C:\\Users\\ilya2\\OneDrive\\Рабочий стол\\ДЗ\\Миркитанов\\Тестировка\\Проги для тестировки\\5 задание(Степанов)\\uniitTesting\\Unit-Testing\\uniitTesting\\uniitTesting.csproj": {
+              "projectPath": "C:\\Users\\ilya2\\OneDrive\\Рабочий стол\\ДЗ\\Миркитанов\\Тестировка\\Проги для тестировки\\5 задание(Степанов)\\uniitTesting\\Unit-Testing\\uniitTesting\\uniitTesting.csproj"
             }
           }
         }
@@ -2372,6 +2421,10 @@
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.5.0, )"
+          },
+          "NUnit": {
+            "target": "Package",
+            "version": "[4.1.0, )"
           },
           "coverlet.collector": {
             "target": "Package",

@@ -216,3 +216,5 @@ C:\Users\ilya2\OneDrive\Рабочий стол\ДЗ\Миркитанов\Тес
 C:\Users\ilya2\OneDrive\Рабочий стол\ДЗ\Миркитанов\Тестировка\Проги для тестировки\5 задание\uniitTesting\Unit-Testing\calculatorTesting\obj\Debug\net6.0\calculatorTesting.pdb
 C:\Users\ilya2\OneDrive\Рабочий стол\ДЗ\Миркитанов\Тестировка\Проги для тестировки\5 задание\uniitTesting\Unit-Testing\calculatorTesting\obj\Debug\net6.0\calculatorTesting.genruntimeconfig.cache
 C:\Users\ilya2\OneDrive\Рабочий стол\ДЗ\Миркитанов\Тестировка\Проги для тестировки\5 задание\uniitTesting\Unit-Testing\calculatorTesting\obj\Debug\net6.0\ref\calculatorTesting.dll
+C:\Users\ilya2\OneDrive\Рабочий стол\ДЗ\Миркитанов\Тестировка\Проги для тестировки\5 задание\uniitTesting\Unit-Testing\calculatorTesting\bin\Debug\net6.0\nunit.framework.dll
+C:\Users\ilya2\OneDrive\Рабочий стол\ДЗ\Миркитанов\Тестировка\Проги для тестировки\5 задание\uniitTesting\Unit-Testing\calculatorTesting\bin\Debug\net6.0\nunit.framework.legacy.dll

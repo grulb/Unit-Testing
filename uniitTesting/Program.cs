@@ -2,23 +2,33 @@
 
 namespace calculatorProgram
 {
-    public class Calculator
+    public class CalculatorPlus
     {
         public static int Plus(int a, int b)
         {
             return a + b;
         }
+    }
 
+    public class CalculatorMinus
+    {
         public static int Minus(int a, int b)
         {
             return a - b;
         }
+    }
 
+    public class CalculatorMultyply
+    {
         public static int Multiply(int a, int b)
         {
             return a * b;
         }
 
+    }
+
+    public class CalculatorDivide
+    {
         public static int Divide(int a, int b)
         {
             if (b == 0)
@@ -26,6 +36,7 @@ namespace calculatorProgram
 
             return a / b;
         }
+
     }
 
     class Program
@@ -40,7 +51,7 @@ namespace calculatorProgram
             Console.WriteLine("Введите второе число");
             int secondNumber = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Выберите действие: \n1.Сложение\n2.Вычитание\n3.Умножение\n4.Деление\n5.Возведение в квадрат");
+            Console.WriteLine("Выберите действие: \n1.Сложение\n2.Вычитание\n3.Умножение\n4.Деление");
             int choose = Convert.ToInt32(Console.ReadLine());
             int result = 0;
 
